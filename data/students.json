@@ -1,0 +1,93 @@
+[
+  {
+    "id": "122874839",
+    "lastname": "Edwards",
+    "firstname": "Julia",
+    "address": "2450 Quincy Ct. Apt. C",
+    "city": "Little Rock",
+    "state": "AR",
+    "zip": "83992",
+    "balance": "00050",
+    "gpa": "2.13",
+    "hours": "13",
+    "financialaid": "Y"
+  },
+  {
+    "id": "145637205",
+    "lastname": "Martin",
+    "firstname": "Duanne",
+    "address": "392 Hazelwood Dr.",
+    "city": "New Hartford",
+    "state": "CT",
+    "zip": "00103",
+    "balance": "00000",
+    "gpa": "0.75",
+    "hours": "13",
+    "financialaid": "Y"
+  },
+  {
+    "id": "167294367",
+    "lastname": "Smith",
+    "firstname": "Jerry",
+    "address": "111 Lincoln Ave.",
+    "city": "Boston",
+    "state": "MA",
+    "zip": "00376",
+    "balance": "00025",
+    "gpa": "2.89",
+    "hours": "00",
+    "financialaid": "N"
+  },
+  {
+    "id": "123456789",
+    "lastname": "Mauger",
+    "firstname": "Wade",
+    "address": "119 Fawn Hollow Rd",
+    "city": "Newmanstown",
+    "state": "PA",
+    "zip": "17073",
+    "balance": "1",
+    "gpa": "2",
+    "hours": "3",
+    "financialaid": "N"
+  },
+  {
+    "id": "987654321",
+    "lastname": "Vuz",
+    "firstname": "Dylan",
+    "address": "11031 Via Breschia",
+    "city": "San Diego",
+    "state": "CA",
+    "zip": "92129",
+    "balance": "2",
+    "gpa": "3",
+    "hours": "4",
+    "financialaid": "Y"
+  },
+  {
+    "id": "456789312",
+    "lastname": "Howard",
+    "firstname": "Tina",
+    "address": "131 Via Venisia",
+    "city": "San Diego",
+    "state": "CA",
+    "zip": "92129",
+    "balance": "6",
+    "gpa": "4",
+    "hours": "5",
+    "financialaid": "Y"
+  },
+  {
+    "id": "456789312",
+    "lastname": "Howard",
+    "firstname": "Tina",
+    "address": "131 Via Venisia",
+    "city": "San Diego",
+    "state": "CA",
+    "zip": "92129",
+    "balance": "6",
+    "gpa": "4",
+    "hours": "5",
+    "financialaid": "Y"
+  }
+]

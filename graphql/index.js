@@ -1,8 +1,11 @@
-import express from 'express';
-import graphQLHTTP from 'express-graphql';
-import schema from './schema';
+'use strict';
 
-let app = express();
-app.use(graphQLHTTP({schema, pretty: true}));
+let express = require('express');
+let graphqlHTTP = require('express-graphql');
+let schema = require('./schema');
+
+let app = express()
+  .use('/graphql', graphqlHTTP({ schema: schema, pretty: true }));
 
 export default app;
+

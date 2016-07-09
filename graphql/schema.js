@@ -1,33 +1,10 @@
-import {
-  GraphQLSchema,
-  GraphQLObjectType,
-  GraphQLString,
-  GraphQLInt,
-  GraphQLList
-} from 'graphql/type';
-import {resolver} from 'graphql-sequelize';
-import Project from '../storage/models/Project';
+'use strict';
 
-const ProjectType = new GraphQLObjectType({
-  name: 'ProjectType',
-  fields: {
-    id: {type: GraphQLInt},
-    name: {type: GraphQLString}
-  }
+let graphql = require('graphql');
+let rootQueryType = require('./types/query');
+let studentMutation = require('./mutations/student');
+
+module.exports = new graphql.GraphQLSchema({
+  query: rootQueryType,
+  mutation: studentMutation
 });
-
-const RootType = new GraphQLObjectType({
-  name: 'RootType',
-  fields: {
-    projects: {
-      type: new GraphQLList(ProjectType),
-      resolve: resolver(Project)
-    }
-  }
-});
-
-const schema = new GraphQLSchema({
-  query: RootType
-});
-
-export default schema;
