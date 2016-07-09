@@ -2,7 +2,6 @@
 
 # Development
 
-1. Follow the [implementation steps](docs) or just clone this repository.
-2. Start application HTTP server: `npm run app:server:start:dev`.
-3. Start application Webpack server: `npm run app:webpack:start`.
-4. Navigate to `http://localhost:4444`.
+1. Start application HTTP server: `npm run frontend`.
+2. Start application Webpack server: `npm run backend`.
+3. Navigate to `http://localhost:4444`.
